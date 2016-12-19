@@ -1,19 +1,23 @@
 ## Concordancia de los códigos de UBIGEO de INEI, RENIEC y SUNAT
 
-Versión: 2016-12-14
+### Versiones
+- Versión 1.0
+	- Fecha: 2016-12-14
+	- Preparada por: Henry Yovanni Francisco Carpio
+      (Administrador de Bases de Datos, OTI, CONCYTEC)
 
-Fuentes de datos (descargadas el 2016-12-07):
+### Fuentes de datos 
 
-*INEI*:
-http://webinei.inei.gob.pe:8080/sisconcode/proyecto/index.htm?proyectoTitulo=UBIGEO&proyectoId=3
+- *INEI*:
+  http://webinei.inei.gob.pe:8080/sisconcode/proyecto/index.htm?proyectoTitulo=UBIGEO&proyectoId=3
+- *RENIEC*:
+  https://www.reniec.gob.pe/Adherentes/jsp/ListaUbigeos.jsp
+- *SUNAT*:
+  http://www2.sunat.gob.pe/pdt/pdtModulos/independientes/p601/Anexo2-Tablas260510.xls
 
-*RENIEC*:
-https://www.reniec.gob.pe/Adherentes/jsp/ListaUbigeos.jsp
+Datos descargados desde las fuentes primarias el 2016-12-07
 
-*SUNAT*:
-http://www2.sunat.gob.pe/pdt/pdtModulos/independientes/p601/Anexo2-Tablas260510.xls
-
-**Notas**:
+### Notas
 
 - INEI tiene el conjunto de datos mas completo, incluyendo los distritos
   creados recientemente.
@@ -35,7 +39,7 @@ http://www2.sunat.gob.pe/pdt/pdtModulos/independientes/p601/Anexo2-Tablas260510.
     - *RENIEC*: 140606 (LIMA, HUAROCHIRI, SAN JOSE DE LOS CHORRILLOS). Este
       distrito no existe desde 1935 cuando se separó en Antioquia y Cuenca.
 
-Licencia:
+### Licencia
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
 alt="Creative Commons License" style="border-width:0"
