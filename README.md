@@ -35,3 +35,11 @@ http://www2.sunat.gob.pe/pdt/pdtModulos/independientes/p601/Anexo2-Tablas260510.
     - *RENIEC*: 140606 (LIMA, HUAROCHIRI, SAN JOSE DE LOS CHORRILLOS). Este
       distrito no existe desde 1935 cuando se separó en Antioquia y Cuenca.
 
+Licencia:
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+alt="Creative Commons License" style="border-width:0"
+src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este trabajo
+está licenciado bajo <a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
+4.0 International License</a>.
