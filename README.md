@@ -1,5 +1,44 @@
 ## Concordancia de los códigos de UBIGEO de INEI, RENIEC y SUNAT
 
+Datos de concordancia/equivalencia entre los códigos y nombres de locaciones
+(Departamentos, Provincias y Distritos) del Perú, en función a los UBIGEO empleados
+por INEI, RENIEC y SUNAT.
+
+En el caso de SUNAT, se han obtenidos estos valores de un archivo en formato
+MS Excel publicado en su sitio web.
+
+Los datos de INEI y de RENIEC provienen de sus fuentes oficiales públicas.
+
+La tabla de equivalencias se presenta en formato CSV y en SQL, en el segundo
+caso, el esquema sugerido es el siguiente:
+
+```{sql}
+CREATE TABLE ubigeo(
+   cod_dep_inei       CHAR(2),
+   desc_dep_inei      VARCHAR(13),
+   cod_prov_inei      CHAR(4),
+   desc_prov_inei     VARCHAR(25),
+   cod_ubigeo_inei    CHAR(6),
+   desc_ubigeo_inei   VARCHAR(36),
+   cod_dep_reniec     CHAR(2),
+   desc_dep_reniec    VARCHAR(23),
+   cod_prov_reniec    CHAR(4),
+   desc_prov_reniec   VARCHAR(25),
+   cod_ubigeo_reniec  CHAR(6),
+   desc_ubigeo_reniec VARCHAR(30),
+   cod_dep_sunat      CHAR(2),
+   desc_dep_sunat     VARCHAR(23),
+   cod_prov_sunat     CHAR(4),
+   desc_prov_sunat    VARCHAR(25),
+   cod_ubigeo_sunat   CHAR(6),
+   desc_ubigeo_sunat  VARCHAR(36)
+);
+```
+
+Se podría usar el campo `cod_dep_inei` como llave primaria, pero primero se 
+deben de eliminar dos locaciones que SUNAT y RENIEC marcan como Distritos, pero
+que en realidad no lo son (ver mas detalles en la sección "Notas")
+
 ### Versiones
 - Versión 1.0
 	- Fecha: 2016-12-14
@@ -38,6 +77,10 @@ Datos descargados desde las fuentes primarias el 2016-12-07
       distrito de Marmot, y no un distrito.
     - *RENIEC*: 140606 (LIMA, HUAROCHIRI, SAN JOSE DE LOS CHORRILLOS). Este
       distrito no existe desde 1935 cuando se separó en Antioquia y Cuenca.
+
+### Copyright
+
+2016 -- Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC)
 
 ### Licencia
 
