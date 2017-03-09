@@ -9,8 +9,11 @@ MS Excel publicado en su sitio web.
 
 Los datos de INEI y de RENIEC provienen de sus fuentes oficiales públicas.
 
-La tabla de equivalencias se presenta en formato CSV y en SQL, en el segundo
-caso, el esquema sugerido es el siguiente:
+La tabla de equivalencias se presenta en formatos de texto: CSV, SQL y JSON,
+asi como en el formato binario de SQLite. 
+
+En caso de usar el formato SQL en una base de datos relacional, el esquema
+sugerido es el siguiente:
 
 ```{sql}
 CREATE TABLE ubigeo(
