@@ -49,7 +49,7 @@ que en realidad no lo son (ver mas detalles en la sección "Notas")
 ### Fuentes de datos 
 
 - *INEI*:
-  http://webinei.inei.gob.pe:8080/sisconcode/proyecto/index.htm?proyectoTitulo=UBIGEO&proyectoId=3
+  http://webapp.inei.gob.pe:8080/sisconcode/main.htm (Seleccionar Proyecto UBIGEO en el menú lateral izquierdo)
 - *RENIEC*:
   https://www.reniec.gob.pe/Adherentes/jsp/ListaUbigeos.jsp
 - *SUNAT*:
