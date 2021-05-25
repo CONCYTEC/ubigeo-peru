@@ -91,3 +91,9 @@ src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este trabajo
 está licenciado bajo <a rel="license"
 href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
 4.0 International License</a>.
+
+
+### Nota:
+
+- Este repositorio no ha recibido mantenimiento del owner original desde 2016
+- Oiginalmente estos datos vinieron de https://github.com/jmcastagnetto/ubigeo-peru, el cual ha sido reemplazado por uno mas actualizado en: https://github.com/jmcastagnetto/ubigeo-peru-aumentado
